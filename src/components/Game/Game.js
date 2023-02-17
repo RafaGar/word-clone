@@ -30,7 +30,6 @@ function Game() {
   }
   return (
     <>
-      {gameStatus}
       <GuessResults wordList={wordList} answer={answer} />
       <Input
         word={word}
